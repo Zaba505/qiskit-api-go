@@ -100,8 +100,8 @@ type jobExecResp struct {
 	}	`json:"status,omitempty"`
 
 	Result expResp	`json:"result,omitempty"`
-	calib Calibration	`json:"calibration,omitempty"`
-	code Code	`json:"code,omitempty"`
+	Calib Calibration	`json:"calibration,omitempty"`
+	Code Code	`json:"code,omitempty"`
 }
 
 // expResp represents the result returned by an experiment
